@@ -1,0 +1,432 @@
+{
+  "status": "static_checks_passed_runtime_pending",
+  "resources": 72,
+  "audio": [
+    {
+      "name": "intro_01",
+      "samples": 88704,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "lobby_01",
+      "samples": 10626048,
+      "loop_start": 0,
+      "loop_end": 10626048
+    },
+    {
+      "name": "lose_01",
+      "samples": 107343,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "win_01",
+      "samples": 87953,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "match_found_01",
+      "samples": 165874,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "hero_select_01",
+      "samples": 133774,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "match_start_01",
+      "samples": 66253,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "midboss_spawn_01",
+      "samples": 49972,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "midboss_hurt_01",
+      "samples": 209058,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "urn_announce_01",
+      "samples": 86132,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rift_announce_01",
+      "samples": 143100,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "shop_01",
+      "samples": 9994752,
+      "loop_start": 0,
+      "loop_end": 9994752
+    },
+    {
+      "name": "secret_store_01",
+      "samples": 9249408,
+      "loop_start": 0,
+      "loop_end": 9249408
+    },
+    {
+      "name": "carpet_01",
+      "samples": 631296,
+      "loop_start": 0,
+      "loop_end": 631296
+    },
+    {
+      "name": "veil_01",
+      "samples": 1440306,
+      "loop_start": 0,
+      "loop_end": 1440306
+    },
+    {
+      "name": "search_mix_01",
+      "samples": 17506944,
+      "loop_start": 0,
+      "loop_end": 17506944
+    },
+    {
+      "name": "search_mix_02",
+      "samples": 11834496,
+      "loop_start": 0,
+      "loop_end": 11834496
+    },
+    {
+      "name": "search_mix_03",
+      "samples": 21788928,
+      "loop_start": 0,
+      "loop_end": 21788928
+    },
+    {
+      "name": "search_mix_04",
+      "samples": 14949504,
+      "loop_start": 0,
+      "loop_end": 14949504
+    },
+    {
+      "name": "search_mix_05",
+      "samples": 9491328,
+      "loop_start": 0,
+      "loop_end": 9491328
+    },
+    {
+      "name": "search_mix_06",
+      "samples": 17414784,
+      "loop_start": 0,
+      "loop_end": 17414784
+    },
+    {
+      "name": "search_mix_07",
+      "samples": 14047488,
+      "loop_start": 0,
+      "loop_end": 14047488
+    },
+    {
+      "name": "search_mix_08",
+      "samples": 22656384,
+      "loop_start": 0,
+      "loop_end": 22656384
+    },
+    {
+      "name": "search_mix_09",
+      "samples": 8744832,
+      "loop_start": 0,
+      "loop_end": 8744832
+    },
+    {
+      "name": "search_mix_10",
+      "samples": 12337920,
+      "loop_start": 0,
+      "loop_end": 12337920
+    },
+    {
+      "name": "search_mix_11",
+      "samples": 9091584,
+      "loop_start": 0,
+      "loop_end": 9091584
+    },
+    {
+      "name": "search_mix_12",
+      "samples": 9395712,
+      "loop_start": 0,
+      "loop_end": 9395712
+    },
+    {
+      "name": "search_mix_13",
+      "samples": 10846080,
+      "loop_start": 0,
+      "loop_end": 10846080
+    },
+    {
+      "name": "search_mix_14",
+      "samples": 12445056,
+      "loop_start": 0,
+      "loop_end": 12445056
+    },
+    {
+      "name": "pause_01",
+      "samples": 1024128,
+      "loop_start": 0,
+      "loop_end": 1024128
+    },
+    {
+      "name": "pause_count_01",
+      "samples": 93914,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "pause_count_02",
+      "samples": 61877,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "pause_count_03",
+      "samples": 70023,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "pause_count_04",
+      "samples": 63859,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "pause_count_05",
+      "samples": 62334,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "pause_count_06",
+      "samples": 55244,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "pause_count_07",
+      "samples": 61921,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "pause_count_08",
+      "samples": 8820,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "pause_count_09",
+      "samples": 78521,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "pause_count_10",
+      "samples": 54584,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "pause_count_11",
+      "samples": 73000,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "pause_count_12",
+      "samples": 57744,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rift_capture_01",
+      "samples": 2002176,
+      "loop_start": 0,
+      "loop_end": 2002176
+    },
+    {
+      "name": "urn_carry_01",
+      "samples": 785664,
+      "loop_start": 0,
+      "loop_end": 785664
+    },
+    {
+      "name": "tower_ally_01",
+      "samples": 90473,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "tower_enemy_01",
+      "samples": 81162,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "sinners_idle_01",
+      "samples": 1817273,
+      "loop_start": 0,
+      "loop_end": 1817273
+    },
+    {
+      "name": "postgame_01",
+      "samples": 4546944,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "urn_delivered_01",
+      "samples": 81162,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rift_win_01",
+      "samples": 81162,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rift_lose_01",
+      "samples": 90473,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "midboss_death_01",
+      "samples": 43692,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "urn_wait_01",
+      "samples": 54124,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "urn_carry_vo_01",
+      "samples": 86132,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "urn_carry_vo_02",
+      "samples": 85028,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "urn_carry_vo_03",
+      "samples": 62876,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "urn_carry_vo_04",
+      "samples": 132884,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "urn_carry_vo_05",
+      "samples": 71930,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "urn_carry_vo_06",
+      "samples": 51468,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "urn_carry_vo_07",
+      "samples": 93976,
+      "loop_start": -1,
+      "loop_end": 0
+    }
+  ],
+  "changed_events": 352,
+  "vpk_sha256": "b55fc05108c315d2625a6b9df99f907f7574df72c219dbabbe50a75ea95e16df",
+  "runtime_verified": false,
+  "random_tests": {
+    "Music.Idol.Pickup.Lp": {
+      "sequence": [
+        "mix_10",
+        "mix_01",
+        "mix_11",
+        "mix_13",
+        "mix_07",
+        "mix_09",
+        "mix_12",
+        "mix_02",
+        "mix_04",
+        "mix_08",
+        "mix_14",
+        "mix_05",
+        "mix_06",
+        "mix_12",
+        "mix_09",
+        "mix_03"
+      ],
+      "distinct": 14,
+      "all_variants_seen": true,
+      "explicit_stop_passed": true
+    },
+    "Music.Koth.Capture.Lp": {
+      "sequence": [
+        "mix_05",
+        "mix_11",
+        "mix_02",
+        "mix_07",
+        "mix_08",
+        "mix_14",
+        "mix_09",
+        "mix_03",
+        "mix_01",
+        "mix_12",
+        "mix_13",
+        "mix_06",
+        "mix_04",
+        "mix_03",
+        "mix_12",
+        "mix_10"
+      ],
+      "distinct": 14,
+      "all_variants_seen": true,
+      "explicit_stop_passed": true
+    },
+    "Gameplay.Pause.Lp": {
+      "sequence": [
+        "pause_05",
+        "pause_02",
+        "pause_01",
+        "pause_04",
+        "pause_03",
+        "pause_05",
+        "pause_06"
+      ],
+      "distinct": 6,
+      "all_variants_seen": true,
+      "explicit_stop_passed": true
+    }
+  },
+  "veil": "ambient_loop_event_verified"
+}

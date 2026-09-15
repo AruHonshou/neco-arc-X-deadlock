@@ -1,0 +1,735 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	Mods.Weapon.Berserk = 
+	{
+		base = "Base.Mod"
+		volume = -2.0
+		pitch_increment_count_max = 10.0
+		incremental_pitch_offset = 0.05
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/beserk/berserker_stack_01.vsnd",
+			"sounds/mods/weapon/beserk/berserker_stack_02.vsnd",
+			"sounds/mods/weapon/beserk/berserker_stack_03.vsnd",
+			"sounds/mods/weapon/beserk/berserker_stack_04.vsnd",
+			"sounds/mods/weapon/beserk/berserker_stack_05.vsnd",
+		]
+		vsnd_duration = 2.203401
+	}
+	Mods.Weapon.Berserk.Max = 
+	{
+		base = "Base.Mod"
+		volume = 0.0
+		vsnd_files = "sounds/mods/weapon/beserk/stack_max.vsnd"
+		vsnd_duration = 3.951746
+	}
+	Mods.Weapon.Fervor.ActivateBonuses = 
+	{
+		base = "Base.Mod"
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		volume = -3.0
+		vsnd_files = "sounds/mods/weapon/fervor/activate.vsnd"
+		vsnd_duration = 2.719875
+	}
+	Mods.Weapon.Headshot.Booster.Proc = 
+	{
+		base = "Base.Mod"
+		volume = -9.0
+		pitch = 1.5
+		limiter_on = 1.0
+		limiter_max = 0
+		vsnd_files = "sounds/mods/weapon/leveler/headshot.vsnd"
+		vsnd_duration = 1.303833
+	}
+	Mods.Weapon.BurstFire.Perfect = 
+	{
+		base = "Base.Mod"
+		volume = 0.0
+		volume_fade_out = 0.39
+		limiter_on = 1.0
+		limiter_max = 0.0
+		limiter_stop_oldest = true
+		pitch_modulation_max = 2.0
+		pitch = 0.75
+		vsnd_files = "sounds/guardian/tier1/wpn/whizby_01.vsnd"
+		vsnd_duration = 0.641312
+	}
+	Mods.Weapon.Detention.Rounds.Mod.Start = 
+	{
+		base = "Base.Mod"
+		vsnd_files = "sounds/mods/weapon/detention_rounds/mod_start.vsnd"
+		vsnd_duration = 4.126458
+	}
+	Mods.Weapon.Detention.Rounds.Mod.End = 
+	{
+		base = "Base.Mod"
+		volume = -2.0
+		vsnd_files = "sounds/mods/weapon/detention_rounds/mods_wpn_detention_end_01.vsnd"
+		vsnd_duration = 2.254807
+	}
+	Mods.Weapon.Kinetic.Dash.Proc = 
+	{
+		base = "Base.Mod"
+		volume = -4.0
+		vsnd_files = "sounds/mods/weapon/kinetic_dash/kinetic_dash_proc_01.vsnd"
+		vsnd_duration = 2.174671
+	}
+	Mods.Weapon.Warp.Stone.Cast.Delay = 
+	{
+		base = "Base.Mod"
+		volume = -9.0
+		vsnd_files = "sounds/mods/armor/meteor_strike/cast_energy.vsnd"
+		vsnd_duration = 1.777052
+	}
+	Mods.Weapon.Warp.Stone.Cast = 
+	{
+		base = "Base.Mod"
+		volume = -1.0
+		vsnd_files = "sounds/mods/armor/meteor_strike/warp_stone_cast.vsnd"
+		vsnd_duration = 2.399456
+	}
+	Mods.Weapon.OnslaughtAura.Cast = 
+	{
+		base = "Base.Mod"
+		volume = 0.0
+		vsnd_files = "sounds/mods/weapon/onslaught_aura/heroic_aura_activate.vsnd"
+		vsnd_duration = 2.752925
+	}
+	Mods.Weapon.Surging.Power.Cast = 
+	{
+		base = "Base.Mod"
+		volume = -2.0
+		vsnd_files = "sounds/mods/weapon/surging_power/mods_surging_power_cast_01.vsnd"
+		vsnd_duration = 2.945397
+	}
+	Mods.Weapon.Surging.Power.Mod.End = 
+	{
+		base = "Base.Mod"
+		volume = -4.0
+		vsnd_files = "sounds/mods/weapon/surging_power/vampiric_burst_mod_end.vsnd"
+		vsnd_duration = 1.794036
+	}
+	Mods.Weapon.Surging.Power.Mod.Lp = 
+	{
+		base = "Base.Mod"
+		volume = -5.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.5
+		delay_rand_min = -4.0
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 0.9
+		pitch_envelope_scale_max = 1.2
+		vsnd_files = "sounds/mods/weapon/surging_power/vampiric_burst_mod_lp.vsnd"
+		vsnd_duration = 8.17
+	}
+	Mods.Weapon.Surging.Power.Mod.Start = 
+	{
+		base = "Base.Mod"
+		volume = -1.0
+		vsnd_files = "sounds/mods/weapon/surging_power/mod_start.vsnd"
+		vsnd_duration = 2.371271
+	}
+	Mods.Weapon.Tech.Overflow.Mod.Start = 
+	{
+		base = "Base.Mod"
+		volume = 2.0
+		vsnd_files = "sounds/mods/weapon/tech_overflow/spiritual_overflow_proc.vsnd"
+		vsnd_duration = 3.720159
+	}
+	Mods.Weapon.Tech.Overflow.Mod.End = 
+	{
+		base = "Base.Mod"
+		volume = -2.0
+		vsnd_files = "sounds/mods/weapon/tech_overflow/spiritual_overflow_end.vsnd"
+		vsnd_duration = 3.147551
+	}
+	Mods.Weapon.FleetfootBoots.Cast = 
+	{
+		base = "Base.Mod"
+		volume = -2.0
+		vsnd_files = "sounds/mods/weapon/fleetfoot_boots/mods_fleetboots_cast_01.vsnd"
+		vsnd_duration = 2.743651
+	}
+	Mods.Weapon.FleetfootBoots.Lp = 
+	{
+		base = "Base.Mod"
+		volume = -14.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.7
+		param_envelope_enabled = 1.0
+		pitch_envelope_scale_min = 1.0
+		pitch_envelope_scale_max = 1.6
+		vsnd_files = "sounds/mods/weapon/fleetfoot_boots/fleetfoot_lp.vsnd"
+		vsnd_duration = 4.640657
+	}
+	Mods.Weapon.FleetfootBoots.End = 
+	{
+		base = "Base.Mod"
+		volume = -10.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.4
+		param_envelope_enabled = 1.0
+		param_envelope_duration = 0.6
+		pitch_envelope_scale_min = 1.6
+		pitch_envelope_scale_max = 1.0
+		vsnd_files = "sounds/mods/weapon/fleetfoot_boots/fleetfoot_end.vsnd"
+		vsnd_duration = 2.080317
+	}
+	Mods.Weapon.Alchemical.Fire.Lp = 
+	{
+		base = "Base.Mod.Detached"
+		volume = -7.0
+		volume_offset_team = -7.0
+		volume_fade_in = 0.15
+		volume_fade_out = 0.4
+		spread_min = 200.0
+		spread_max = 400.0
+		spread_max_value_player = 0.5
+		spread_max_value_opponent = 0.5
+		spread_max_value_team = 0.5
+		spread_max_value_neutral = 0.5
+		spread_min_value = 0.0
+		vsnd_files = "sounds/mods/weapon/thermal_det/alchemical_fire_lp.vsnd"
+		volume_fade_over_time_curve = 
+		[
+			[
+				0.0, 0.0, 1.083, 1.083,
+				2.0, 3.0,
+			],
+			[
+				1.0, 1.0, 0.227125, 0.227125,
+				2.0, 3.0,
+			],
+		]
+		vsnd_duration = 11.904399
+	}
+	Mods.Weapon.Alchemical.Fire.End = 
+	{
+		base = "Base.Mod.Detached"
+		volume = -8.0
+		volume_offset_team = -4.0
+		vsnd_files = "sounds/mods/weapon/thermal_det/alchemical_fire_end.vsnd"
+		vsnd_duration = 3.094694
+	}
+	Mods.Weapon.Thermal.Detonator.Cast = 
+	{
+		base = "Base.Mod"
+		volume = -2.0
+		vsnd_files = "sounds/mods/weapon/thermal_det/alchemical_fire_cast.vsnd"
+		vsnd_duration = 2.879229
+	}
+	Mods.Weapon.Thermal.Detonator.Proj.Lp = 
+	{
+		base = "Base.Ability.Projectile"
+		volume = -3.0
+		volume_fade_in = 0.15
+		volume_fade_out = 0.3
+		vsnd_files = "sounds/mods/weapon/thermal_det/alchemical_fire_proj_lp.vsnd"
+		vsnd_duration = 5.304513
+	}
+	Mods.Weapon.Thermal.Detonator.Explode = 
+	{
+		base = "Base.Mod.Detached"
+		volume = 0.0
+		vsnd_files = "sounds/mods/weapon/thermal_det/alchemical_fire_explode.vsnd"
+		vsnd_duration = 3.280771
+	}
+	Mods.Weapon.Alchemical.Fire.Select = 
+	{
+		base = "Base.Mod"
+		volume = -4.0
+		vsnd_files = "sounds/mods/weapon/thermal_det/alchemical_fire_select.vsnd"
+		vsnd_duration = 1.182109
+	}
+	Mods.Weapon.Alchemical.Fire.Unselect = 
+	{
+		base = "Base.Mod"
+		volume = -5.0
+		vsnd_files = "sounds/mods/weapon/thermal_det/alchemical_fire_unselect.vsnd"
+		vsnd_duration = 1.513311
+	}
+	Mods.Weapon.Alchemical.Fire.Select.Lp = 
+	{
+		base = "Base.Ability.Telegraph"
+		volume = -10.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.5
+		vsnd_files = "sounds/mods/weapon/thermal_det/alchemical_fire_select_lp.vsnd"
+		vsnd_duration = 4.938299
+	}
+	Mods.Weapon.DisarmingHex.Proj.Lp = 
+	{
+		base = "Base.Mod"
+		volume = -5.0
+		doppler_on = 1.0
+		volume_fade_out = 0.3
+		volume_fade_in = 0.3
+		delay_rand_min = -3.0
+		vsnd_files = "sounds/mods/weapon/silencer/silence_travel_lp.vsnd"
+		vsnd_duration = 4.945419
+	}
+	Mods.Weapon.Silencer.Proc = 
+	{
+		base = "Base.Ability.Hit"
+		volume = 6.0
+		vsnd_files = "sounds/mods/weapon/silencer/silencer_hit.vsnd"
+		vsnd_duration = 2.122449
+	}
+	Mods.Weapon.Silencer.Dur.Lp = 
+	{
+		base = "Base.Mod.StatusEffect"
+		volume = -4.0
+		volume_fade_out = 0.5
+		volume_fade_in = 0.2
+		volume_offset_opponent = -99.0
+		volume_offset_team = -99.0
+		vsnd_files = "sounds/mods/weapon/silencer/silencer_lp.vsnd"
+		vsnd_duration = 2.791338
+	}
+	Mods.Weapon.Spellslinger.Proc = 
+	{
+		base = "Base.Mod"
+		volume = -1.0
+		delay = 0.04
+		vsnd_files = "sounds/mods/weapon/spellslinger/spellslinger_proc_01.vsnd"
+		vsnd_duration = 1.481519
+	}
+	Mods.Weapon.Spellslinger.Expire = 
+	{
+		base = "Base.Mod"
+		volume = 0.0
+		vsnd_files = "sounds/mods/weapon/spellslinger/spellslinger_expire_01.vsnd"
+		vsnd_duration = 0.886961
+	}
+	Mods.Weapon.SplitShot.Activate = 
+	{
+		base = "Base.Mod"
+		volume = -3.0
+		vsnd_files = "sounds/mods/weapon/splitshot/split_shot_activate_01.vsnd"
+		vsnd_duration = 2.137302
+	}
+	Mods.Weapon.SplitShot.Expire = 
+	{
+		base = "Base.Mod"
+		volume = -3.0
+		vsnd_files = "sounds/mods/weapon/splitshot/split_shot_expire_01.vsnd"
+		vsnd_duration = 0.863333
+	}
+	Mods.Weapon.BloodTribute.Activate = 
+	{
+		base = "Base.Mod"
+		volume = -2.0
+		vsnd_files = "sounds/mods/weapon/blood_tribute/blood_tribute_activate_01.vsnd"
+		vsnd_duration = 2.007687
+	}
+	Mods.Weapon.BloodTribute.Deactivate = 
+	{
+		base = "Base.Mod"
+		volume = -3.0
+		vsnd_files = "sounds/mods/weapon/blood_tribute/blood_tribute_deactivate_01.vsnd"
+		vsnd_duration = 1.511406
+	}
+	Mods.Weapon.BloodTribute.Lp = 
+	{
+		base = "Base.Mod"
+		volume = -8.0
+		delay_rand_min = -6.0
+		delay = 0.1
+		volume_fade_in = 0.2
+		volume_fade_out = 0.5
+		vsnd_files = "sounds/mods/weapon/blood_tribute/blood_tribute_activated_lp_01.vsnd"
+		vsnd_duration = 9.247166
+	}
+	Mods.Weapon.CultistSacrifice.Cast = 
+	{
+		base = "Base.Mod"
+		volume = -5.0
+		vsnd_files = "sounds/mods/weapon/cultist_sacrifice/cultist_sacrifice_cast_01.vsnd"
+		vsnd_duration = 3.043764
+	}
+	Mods.Weapon.CultistSacrifice.Select = 
+	{
+		base = "Base.Mod"
+		volume = -4.0
+		vsnd_files = "sounds/mods/weapon/cultist_sacrifice/cultist_sacrifice_select_01.vsnd"
+		vsnd_duration = 1.301996
+	}
+	Mods.Weapon.CultistSacrifice.Deselect = 
+	{
+		base = "Base.Mod"
+		volume = -4.0
+		vsnd_files = "sounds/mods/weapon/cultist_sacrifice/cultist_sacrifice_deselect_01.vsnd"
+		vsnd_duration = 0.954671
+	}
+	Mods.Weapon.CultistSacrifice.Selected.Lp = 
+	{
+		base = "Base.Mod"
+		volume = -2.0
+		volume_fade_in = 0.2
+		volume_fade_out = 0.5
+		delay_rand_min = -2.0
+		delay = 0.2
+		vsnd_files = "sounds/mods/weapon/cultist_sacrifice/cultist_sacrifice_selected_lp_01.vsnd"
+		vsnd_duration = 9.569682
+	}
+	Mods.Weapon.CultistSacrifice.Ready = 
+	{
+		base = "Base.Mod"
+		volume = -1.0
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/cultist_sacrifice/cultist_sacrifice_ready_01.vsnd",
+			"sounds/mods/weapon/cultist_sacrifice/cultist_sacrifice_ready_02.vsnd",
+			"sounds/mods/weapon/cultist_sacrifice/cultist_sacrifice_ready_03.vsnd",
+			"sounds/mods/weapon/cultist_sacrifice/cultist_sacrifice_ready_04.vsnd",
+			"sounds/mods/weapon/cultist_sacrifice/cultist_sacrifice_ready_05.vsnd",
+		]
+		vsnd_duration = 8.214854
+	}
+	Mods.Weapon.Backstabber.Proc = 
+	{
+		base = "Base.Ability.Hit"
+		volume = 3.0
+		vsnd_files = "sounds/mods/weapon/backstabber/backstabber_proc_01.vsnd"
+		vsnd_duration = 1.560748
+	}
+	Mods.Weapon.Backstabber.Damage.Tick = 
+	{
+		base = "Base.Mod.StatusEffect"
+		volume = -15.0
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/backstabber/backstabber_damage_tick_01.vsnd",
+			"sounds/mods/weapon/backstabber/backstabber_damage_tick_02.vsnd",
+			"sounds/mods/weapon/backstabber/backstabber_damage_tick_03.vsnd",
+			"sounds/mods/weapon/backstabber/backstabber_damage_tick_04.vsnd",
+			"sounds/mods/weapon/backstabber/backstabber_damage_tick_05.vsnd",
+			"sounds/mods/weapon/backstabber/backstabber_damage_tick_06.vsnd",
+		]
+		vsnd_duration = 0.492698
+	}
+	Mods.Weapon.ActiveReload.Success = 
+	{
+		base = "Base.Mod"
+		vsnd_files = "sounds/mods/weapon/active_reload/item_active_reload_success.vsnd"
+		vsnd_duration = 2.143696
+	}
+	Mods.Weapon.ActiveReload.Fail = 
+	{
+		base = "Base.Mod"
+		vsnd_files = "sounds/mods/weapon/active_reload/item_active_reload_fail.vsnd"
+		vsnd_duration = 1.6478
+	}
+	Mods.Weapon.ActiveReload.WindowEntered = 
+	{
+		base = "Base.Mod"
+		volume = -11.5
+		vsnd_files = "sounds/mods/weapon/active_reload/item_active_reload_window_entered.vsnd"
+		vsnd_duration = 2.188481
+	}
+	Mods.Weapon.Chain.Lightning.Jump = 
+	{
+		base = "Base.Mod.StatusEffect"
+		limiter_max = 2.0
+		volume = -10.0
+		volume_offset_player = 6.0
+		volume_offset_team = -3.0
+		pitch_rand_min = -0.01
+		pitch_rand_max = 0.01
+		incremental_pitch_offset = 0.1
+		pitch_increment_count_max = 6.0
+		source_reverb_level = 2.0
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/electric/tesla_shock_jump_01.vsnd",
+			"sounds/mods/weapon/electric/tesla_shock_jump_02.vsnd",
+			"sounds/mods/weapon/electric/tesla_shock_jump_03.vsnd",
+			"sounds/mods/weapon/electric/tesla_shock_jump_04.vsnd",
+			"sounds/mods/weapon/electric/tesla_shock_jump_05.vsnd",
+			"sounds/mods/weapon/electric/tesla_shock_jump_06.vsnd",
+			"sounds/mods/weapon/electric/tesla_shock_jump_07.vsnd",
+			"sounds/mods/weapon/electric/tesla_shock_jump_08.vsnd",
+		]
+		instance_count_offset_amount_db = 
+		[
+			[
+				0.0, 0.0, 0.0, -0.293897,
+				0.0, 0.0,
+			],
+			[
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
+			],
+			[
+				3.0, -6.0, -3.243744, 0.0,
+				0.0, 0.0,
+			],
+		]
+		vsnd_duration = 1.371542
+	}
+	Mods.Weapon.Bleeding.Bullets.Proc = 
+	{
+		base = "Base.Ability.Hit"
+		limiter_max = 2.0
+		volume = 4.0
+		volume_offset_attacker_db = 2.0
+		pitch_rand_min = -0.1
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/toxic/toxic_proc_01.vsnd",
+			"sounds/mods/weapon/toxic/toxic_proc_02.vsnd",
+			"sounds/mods/weapon/toxic/toxic_proc_03.vsnd",
+		]
+		vsnd_duration = 2.149478
+	}
+	Mods.Weapon.Bleeding.Bullets.Mod.End = 
+	{
+		base = "Base.Mod.StatusEffect"
+		limiter_max = 2.0
+		volume = -4.0
+		volume_offset_opponent = -99.0
+		volume_offset_team = -99.0
+		pitch_rand_min = -0.1
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/toxic/toxic_mod_end_01.vsnd",
+			"sounds/mods/weapon/toxic/toxic_mod_end_02.vsnd",
+			"sounds/mods/weapon/toxic/toxic_mod_end_03.vsnd",
+		]
+		vsnd_duration = 2.093606
+	}
+	Mods.Weapon.Lucky.Bullets.Proc = 
+	{
+		base = "Base.Mod"
+		limiter_max = 2.0
+		limiter_on = 1.0
+		volume = -6.0
+		pitch = 1.1
+		pitch_rand_min = -0.015
+		pitch_rand_max = 0.015
+		volume_offset_opponent = -6.0
+		volume_offset_team = -4.0
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/lucky/lucky_proc_01.vsnd",
+			"sounds/mods/weapon/lucky/lucky_proc_02.vsnd",
+			"sounds/mods/weapon/lucky/lucky_proc_03.vsnd",
+		]
+		vsnd_duration = 0.910816
+	}
+	Mods.Weapon.Silencer.Cast = 
+	{
+		base = "Base.Mod"
+		delay = 0.05
+		volume = 0.0
+		vsnd_files = "sounds/mods/weapon/silencer/silence_cast.vsnd"
+		vsnd_duration = 2.488843
+	}
+	Mods.Weapon.Capacitor.Proc = 
+	{
+		base = "Base.Ability.Hit"
+		volume = 0.0
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/capacitor/capacitor_proc_01.vsnd",
+			"sounds/mods/weapon/capacitor/capacitor_proc_02.vsnd",
+			"sounds/mods/weapon/capacitor/capacitor_proc_03.vsnd",
+		]
+		vsnd_duration = 2.109478
+	}
+	Mods.Weapon.Capacitor.Cast = 
+	{
+		base = "Base.Mod"
+		volume = -4.0
+		volume_offset_team = -9.0
+		pitch_rand_min = -0.075
+		pitch_rand_max = 0.075
+		max_distance_recipient_filter = 3500.0
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/capacitor/capacitor_cast_01.vsnd",
+			"sounds/mods/weapon/capacitor/capacitor_cast_02.vsnd",
+			"sounds/mods/weapon/capacitor/capacitor_cast_03.vsnd",
+		]
+		volume_falloff_curve_db_opponent = 
+		[
+			[
+				0.0, 0.0, 0.0, 0.0,
+				0.0, 0.0,
+			],
+			[
+				201.149429, 0.0, 0.0, -0.00338,
+				0.0, 0.0,
+			],
+			[
+				2800.0, -6.080357, -0.004735, -0.004735,
+				2.0, 3.0,
+			],
+			[
+				3500.0, -60.0, -0.035318, -0.035318,
+				2.0, 3.0,
+			],
+		]
+		vsnd_duration = 1.792313
+	}
+	Mods.Weapon.Capacitor.Projectile.Lp = 
+	{
+		base = "Base.Ability.Projectile"
+		volume = -9.0
+		delay_rand_min = -3.0
+		volume_fade_in = 0.1
+		volume_fade_out = 0.2
+		vsnd_files = "sounds/mods/weapon/capacitor/capacitor_proj_lp.vsnd"
+		vsnd_duration = 2.965397
+	}
+	Mods.Weapon.Capacitor.Projectile.Whizby = 
+	{
+		base = "Base.Bullet.Whizby"
+		whizby_time_to_peak = 0.1
+		volume = 3.0
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/capacitor/capacitor_whizby_01.vsnd",
+			"sounds/mods/weapon/capacitor/capacitor_whizby_02.vsnd",
+			"sounds/mods/weapon/capacitor/capacitor_whizyb_03.vsnd",
+		]
+		vsnd_duration = 1.546531
+	}
+	Mods.Weapon.Express.Shot.Ready = 
+	{
+		base = "Base.Mod"
+		volume = 2.0
+		vsnd_files = "sounds/mods/weapon/express_shot/express_shot_ready.vsnd"
+		vsnd_duration = 2.885533
+	}
+	Mods.Weapon.Express.Shot.Sweetener = 
+	{
+		base = "Base.Mod"
+		volume = -3.0
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/express_shot/express_shot_sweetener_01.vsnd",
+			"sounds/mods/weapon/express_shot/express_shot_sweetener_02.vsnd",
+			"sounds/mods/weapon/express_shot/express_shot_sweetener_03.vsnd",
+		]
+		vsnd_duration = 2.041565
+	}
+	Mods.Weapon.Crushing.Fists.Stack = 
+	{
+		base = "Base.Mod"
+		volume = -7.5
+		delay = 0.05
+		volume_offset_opponent = 2.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		vsnd_files = "sounds/mods/weapon/crushing_fists/crushing_fists_stack.vsnd"
+		instance_count_offset_amount_db = 
+		[
+			[
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
+			],
+			[
+				2.0, -3.0, -3.243744, 0.0,
+				0.0, 0.0,
+			],
+			[
+				3.0, -6.0, -3.243744, 0.0,
+				0.0, 0.0,
+			],
+		]
+		vsnd_duration = 2.1261
+	}
+	Mods.Weapon.Crushing.Fists.Stun = 
+	{
+		base = "Base.Ability.Hit"
+		volume = 5.0
+		filter_include_others = true
+		volume_offset_victim_db = 2.0
+		pitch_rand_min = -0.1
+		pitch_rand_max = 0.1
+		vsnd_files = "sounds/mods/weapon/crushing_fists/crushing_fists_stun.vsnd"
+		instance_count_offset_amount_db = 
+		[
+			[
+				1.0, 0.0, -0.293897, -3.243744,
+				0.0, 0.0,
+			],
+			[
+				2.0, -5.0, -3.243744, 0.0,
+				0.0, 0.0,
+			],
+			[
+				3.0, -8.0, -3.243744, 0.0,
+				0.0, 0.0,
+			],
+		]
+		vsnd_duration = 2.322358
+	}
+	Mods.Weapon.Glass.Cannon.Stack.Gain = 
+	{
+		base = "Base.Mod"
+		volume = 1.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		vsnd_files = "sounds/mods/weapon/glass_cannon/glass_cannon_stack_gain.vsnd"
+		vsnd_duration = 3.259955
+	}
+	Mods.Weapon.Glass.Cannon.Stack.Loss = 
+	{
+		base = "Base.Mod"
+		volume = 0.0
+		pitch_rand_min = -0.05
+		pitch_rand_max = 0.05
+		vsnd_files = "sounds/mods/weapon/glass_cannon/glass_cannon_stack_loss.vsnd"
+		vsnd_duration = 3.2822
+	}
+	Mods.Weapon.Recharging.Rush.Proc = 
+	{
+		base = "Base.Mod.StatusEffect"
+		volume = 1.0
+		block_duration = 0.25
+		volume_offset_team = -9.0
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/recharging_rush/recharging_rush_proc_01.vsnd",
+			"sounds/mods/weapon/recharging_rush/recharging_rush_proc_02.vsnd",
+			"sounds/mods/weapon/recharging_rush/recharging_rush_proc_03.vsnd",
+		]
+		vsnd_duration = 2.670998
+	}
+	Mods.Haunting.Shot.Proc = 
+	{
+		base = "Base.Mod"
+		volume = 0.0
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.2
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/haunting_shot/haunting_shot_proc_01.vsnd",
+			"sounds/mods/weapon/haunting_shot/haunting_shot_proc_02.vsnd",
+			"sounds/mods/weapon/haunting_shot/haunting_shot_proc_03.vsnd",
+		]
+		vsnd_duration = 3.972109
+	}
+	Mods.Haunting.Shot.Explode = 
+	{
+		base = "Base.Ability.Hit"
+		volume = 3.0
+		volume_offset_attacker_db = 3.0
+		pitch_rand_min = -0.02
+		pitch_rand_max = 0.02
+		vsnd_files = 
+		[
+			"sounds/mods/weapon/haunting_shot/haunting_shot_impact_01.vsnd",
+			"sounds/mods/weapon/haunting_shot/haunting_shot_impact_02.vsnd",
+			"sounds/mods/weapon/haunting_shot/haunting_shot_impact_03.vsnd",
+		]
+		vsnd_duration = 3.913877
+	}
+}

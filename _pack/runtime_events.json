@@ -1,0 +1,205 @@
+[
+  {
+    "event": "Music.MainMenu",
+    "selected": [
+      "sounds\\aru\\menu_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Music.Title",
+    "selected": [
+      "sounds\\aru\\menu_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Music.Hideout.Search",
+    "selected": [
+      "sounds\\aru\\search_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Music.Hideout.Wait",
+    "selected": [
+      "sounds\\aru\\search_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Music.Match.Win",
+    "selected": [
+      "sounds\\aru\\win_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Music.Match.Lose",
+    "selected": [
+      "sounds\\aru\\lose_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Music.Shop",
+    "selected": [
+      "sounds\\aru\\shop_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Music.Shop.Secret",
+    "selected": [
+      "sounds\\aru\\secret_shop_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.Idol.AnnounceDrop",
+    "selected": [
+      "sounds\\aru\\urn_announce_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.Koth.Announce",
+    "selected": [
+      "sounds\\aru\\rift_announce_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Music.Idol.Pickup.Lp",
+    "selected": [
+      "sounds\\aru\\mix_08.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Music.Koth.Capture.Lp",
+    "selected": [
+      "sounds\\aru\\mix_06.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.KillStreak",
+    "selected": [
+      "sounds\\aru\\killstreak_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.KillStreak_01",
+    "selected": [
+      "sounds\\aru\\killstreak_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.KillStreak_02",
+    "selected": [
+      "sounds\\aru\\killstreak_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.KillStreak_03",
+    "selected": [
+      "sounds\\aru\\killstreak_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.KillStreak_04",
+    "selected": [
+      "sounds\\aru\\killstreak_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.KillStreak_05",
+    "selected": [
+      "sounds\\aru\\killstreak_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.KillStreak_06",
+    "selected": [
+      "sounds\\aru\\killstreak_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.KillStreak_07",
+    "selected": [
+      "sounds\\aru\\killstreak_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.KillStreak_08",
+    "selected": [
+      "sounds\\aru\\killstreak_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.KillStreak_09",
+    "selected": [
+      "sounds\\aru\\killstreak_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Stinger.KillStreak_10",
+    "selected": [
+      "sounds\\aru\\killstreak_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "UI.Shop.Enter",
+    "selected": [
+      "sounds\\aru\\shop_open_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Gameplay.Pause.Lp",
+    "selected": [
+      "sounds\\aru\\pause_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "MidBoss.Arrive",
+    "selected": [
+      "sounds\\aru\\midboss_spawn_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "MidBoss.LowHealth",
+    "selected": [
+      "sounds\\aru\\midboss_hurt_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Item.MagicCarpet.Lp",
+    "selected": [
+      "sounds\\aru\\carpet_01.vsnd"
+    ],
+    "passed": true
+  },
+  {
+    "event": "Mods.Armor.VeilWalker.Ambient",
+    "selected": [
+      "sounds\\aru\\veil_01.vsnd"
+    ],
+    "passed": true
+  }
+]

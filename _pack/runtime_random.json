@@ -1,0 +1,62 @@
+{
+  "Music.Idol.Pickup.Lp": {
+    "sequence": [
+      "mix_10",
+      "mix_01",
+      "mix_11",
+      "mix_13",
+      "mix_07",
+      "mix_09",
+      "mix_12",
+      "mix_02",
+      "mix_04",
+      "mix_08",
+      "mix_14",
+      "mix_05",
+      "mix_06",
+      "mix_12",
+      "mix_09",
+      "mix_03"
+    ],
+    "distinct": 14,
+    "all_variants_seen": true,
+    "explicit_stop_passed": true
+  },
+  "Music.Koth.Capture.Lp": {
+    "sequence": [
+      "mix_05",
+      "mix_11",
+      "mix_02",
+      "mix_07",
+      "mix_08",
+      "mix_14",
+      "mix_09",
+      "mix_03",
+      "mix_01",
+      "mix_12",
+      "mix_13",
+      "mix_06",
+      "mix_04",
+      "mix_03",
+      "mix_12",
+      "mix_10"
+    ],
+    "distinct": 14,
+    "all_variants_seen": true,
+    "explicit_stop_passed": true
+  },
+  "Gameplay.Pause.Lp": {
+    "sequence": [
+      "pause_05",
+      "pause_02",
+      "pause_01",
+      "pause_04",
+      "pause_03",
+      "pause_05",
+      "pause_06"
+    ],
+    "distinct": 6,
+    "all_variants_seen": true,
+    "explicit_stop_passed": true
+  }
+}

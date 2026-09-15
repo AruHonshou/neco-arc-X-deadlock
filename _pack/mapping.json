@@ -1,0 +1,4376 @@
+[
+  {
+    "file": "music.vsndevts",
+    "event": "Music.Hideout",
+    "folder": "buscandoPartida",
+    "random": false,
+    "fields": {
+      "vsnd_files_play_base": [
+        "sounds/aru/lobby_01.vsnd"
+      ],
+      "vsnd_files_play_high": [
+        "sounds/aru/lobby_01.vsnd"
+      ],
+      "vsnd_files_play_low": [
+        "sounds/aru/lobby_01.vsnd"
+      ],
+      "vsnd_files_play_base_fx": [],
+      "endpoint": null,
+      "startpoint": null,
+      "sync_bpm": null,
+      "vsnd_duration": 240.953469,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Music.Title",
+    "folder": "Inicio",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/intro_01.vsnd"
+      ],
+      "vsnd_duration": 2.011429,
+      "pitch": 1.0,
+      "volume": 8.0,
+      "vsnd_files_fx": []
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Music.Hideout.Search",
+    "folder": "musicaMix",
+    "random": true,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/search_mix_01.vsnd",
+        "sounds/aru/search_mix_02.vsnd",
+        "sounds/aru/search_mix_03.vsnd",
+        "sounds/aru/search_mix_04.vsnd",
+        "sounds/aru/search_mix_05.vsnd",
+        "sounds/aru/search_mix_06.vsnd",
+        "sounds/aru/search_mix_07.vsnd",
+        "sounds/aru/search_mix_08.vsnd",
+        "sounds/aru/search_mix_09.vsnd",
+        "sounds/aru/search_mix_10.vsnd",
+        "sounds/aru/search_mix_11.vsnd",
+        "sounds/aru/search_mix_12.vsnd",
+        "sounds/aru/search_mix_13.vsnd",
+        "sounds/aru/search_mix_14.vsnd"
+      ],
+      "vsnd_duration": 513.750204,
+      "pitch": 1.0,
+      "volume": 10.0,
+      "type": "citadel_default_2d",
+      "base": "Base.Music.2d",
+      "endpoint": null,
+      "startpoint": null,
+      "sync_bpm": null
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Music.Hideout.Wait",
+    "folder": "musicaMix",
+    "random": true,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/search_mix_01.vsnd",
+        "sounds/aru/search_mix_02.vsnd",
+        "sounds/aru/search_mix_03.vsnd",
+        "sounds/aru/search_mix_04.vsnd",
+        "sounds/aru/search_mix_05.vsnd",
+        "sounds/aru/search_mix_06.vsnd",
+        "sounds/aru/search_mix_07.vsnd",
+        "sounds/aru/search_mix_08.vsnd",
+        "sounds/aru/search_mix_09.vsnd",
+        "sounds/aru/search_mix_10.vsnd",
+        "sounds/aru/search_mix_11.vsnd",
+        "sounds/aru/search_mix_12.vsnd",
+        "sounds/aru/search_mix_13.vsnd",
+        "sounds/aru/search_mix_14.vsnd"
+      ],
+      "vsnd_duration": 513.750204,
+      "pitch": 1.0,
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "ui.vsndevts",
+    "event": "UI.Matchmake.Made",
+    "folder": "sonido encontro partida",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/match_found_01.vsnd"
+      ],
+      "vsnd_duration": 3.761315,
+      "pitch": 1.0,
+      "volume": 3.0
+    }
+  },
+  {
+    "file": "ui.vsndevts",
+    "event": "Menu.HeroSelection.Enter",
+    "folder": "SELECCIONAR PERSONAJE",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/hero_select_01.vsnd"
+      ],
+      "vsnd_duration": 3.033424,
+      "pitch": 1.0,
+      "volume": 8.0,
+      "volume_fade_out": 0.1
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Map.Broadcast.GameStart",
+    "folder": "INICIA PARTIDA",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/match_start_01.vsnd"
+      ],
+      "vsnd_duration": 1.502336,
+      "pitch": 1.0,
+      "volume": 0.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Music.Match.Win",
+    "folder": "victoria",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/win_01.vsnd"
+      ],
+      "vsnd_duration": 1.994399,
+      "pitch": 1.0,
+      "volume": 6.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Music.Match.Lose",
+    "folder": "derrota",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/lose_01.vsnd"
+      ],
+      "vsnd_duration": 2.434082,
+      "pitch": 1.0,
+      "volume": 6.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Music.Shop",
+    "folder": "musicaTienda",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/shop_01.vsnd"
+      ],
+      "vsnd_duration": 226.638367,
+      "pitch": 1.0,
+      "volume": 2.0,
+      "delay_rand_min": 0.0,
+      "delay_rand_max": 0.0,
+      "cull_at_distance": 6000.0,
+      "volume_falloff_max": 1400.0,
+      "occlusion_min": 0.4,
+      "occlusion_max_velocity": 0.9
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Music.Shop.Secret",
+    "folder": "musicatiendasecreta",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/secret_store_01.vsnd"
+      ],
+      "vsnd_duration": 209.737143,
+      "pitch": 1.0,
+      "volume": 4.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.Idol.AnnounceDrop",
+    "folder": "aparece la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_announce_01.vsnd"
+      ],
+      "vsnd_duration": 1.953107,
+      "pitch": 1.0,
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.Koth.Announce",
+    "folder": "avisoAparecelaGrieta",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/rift_announce_01.vsnd"
+      ],
+      "vsnd_duration": 3.244898,
+      "pitch": 1.0,
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Music.Idol.Pickup.Lp",
+    "folder": "llevar urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_01.vsnd"
+      ],
+      "vsnd_duration": 17.81551,
+      "pitch": 1.0,
+      "volume": 6.0,
+      "vsnd_files_distance_xfade": [],
+      "volume_fade_out": 0.3
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Music.Koth.Capture.Lp",
+    "folder": "cargar o estar dentro de la grieta",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/rift_capture_01.vsnd"
+      ],
+      "vsnd_duration": 45.400816,
+      "pitch": 1.0,
+      "volume": 6.0,
+      "vsnd_files_blocked": [
+        "sounds/aru/rift_capture_01.vsnd"
+      ],
+      "vsnd_files_contest": [
+        "sounds/aru/rift_capture_01.vsnd"
+      ],
+      "vsnd_files_approach": [
+        "sounds/aru/rift_capture_01.vsnd"
+      ]
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Music.Idol.Timer.Lp",
+    "folder": "musicaTienda",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/shop_01.vsnd"
+      ],
+      "vsnd_duration": 226.638367,
+      "pitch": 1.0,
+      "volume": 9.0,
+      "vsnd_files_opponent_control": [
+        "sounds/aru/shop_01.vsnd"
+      ],
+      "volume_fade_out": 0.3
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Music.PostGame",
+    "folder": "MUSICA DE CUANDO FINALIZA PARTIDA, EN LOS RESULTADOS DE LA PARTIDA",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/postgame_01.vsnd"
+      ],
+      "vsnd_duration": 103.105306,
+      "pitch": 1.0,
+      "volume": 10.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.Tier1.Killed.Friendly",
+    "folder": "caida torre aliada",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/tower_ally_01.vsnd"
+      ],
+      "vsnd_duration": 2.051542,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.Tier2.Killed.Friendly",
+    "folder": "caida torre aliada",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/tower_ally_01.vsnd"
+      ],
+      "vsnd_duration": 2.051542,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.Titan.Killed.Friendly",
+    "folder": "caida torre aliada",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/tower_ally_01.vsnd"
+      ],
+      "vsnd_duration": 2.051542,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.TitanShield1.Killed.Friendly",
+    "folder": "caida torre aliada",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/tower_ally_01.vsnd"
+      ],
+      "vsnd_duration": 2.051542,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.TitanShield2.Killed.Friendly",
+    "folder": "caida torre aliada",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/tower_ally_01.vsnd"
+      ],
+      "vsnd_duration": 2.051542,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.Tier1.Killed.Enemy",
+    "folder": "caida torre enemiga",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/tower_enemy_01.vsnd"
+      ],
+      "vsnd_duration": 1.840408,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.Tier2.Killed.Enemy",
+    "folder": "caida torre enemiga",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/tower_enemy_01.vsnd"
+      ],
+      "vsnd_duration": 1.840408,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.Titan.Killed.Enemy",
+    "folder": "caida torre enemiga",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/tower_enemy_01.vsnd"
+      ],
+      "vsnd_duration": 1.840408,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.TitanShield1.Killed.Enemy",
+    "folder": "caida torre enemiga",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/tower_enemy_01.vsnd"
+      ],
+      "vsnd_duration": 1.840408,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.TitanShield2.Killed.Enemy",
+    "folder": "caida torre enemiga",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/tower_enemy_01.vsnd"
+      ],
+      "vsnd_duration": 1.840408,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Music.Sinners.Nearby",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/sinners_idle_01.vsnd"
+      ],
+      "vsnd_duration": 41.208005,
+      "volume_fade_out": 0.5,
+      "pitch": 1.0,
+      "volume": 6.0
+    }
+  },
+  {
+    "file": "npc/neut_vaults.vsndevts",
+    "event": "Vault.Idle_Lp",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/sinners_idle_01.vsnd"
+      ],
+      "vsnd_duration": 41.208005,
+      "volume_fade_out": 0.5,
+      "volume": 4.0
+    }
+  },
+  {
+    "file": "ui.vsndevts",
+    "event": "Gameplay.Pause.Lp",
+    "folder": "pause",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/pause_01.vsnd"
+      ],
+      "vsnd_duration": 23.222857,
+      "pitch": 1.0,
+      "volume": 0.0,
+      "vsnd_pause_with_game": false,
+      "volume_fade_out": 0.2
+    }
+  },
+  {
+    "file": "ui.vsndevts",
+    "event": "Aru.PreMatch.Countdown.Tick",
+    "folder": "contador",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_10.vsnd",
+        "sounds/aru/pause_count_05.vsnd",
+        "sounds/aru/pause_count_02.vsnd",
+        "sounds/aru/pause_count_07.vsnd",
+        "sounds/aru/pause_count_09.vsnd",
+        "sounds/aru/pause_count_03.vsnd",
+        "sounds/aru/pause_count_04.vsnd",
+        "sounds/aru/pause_count_11.vsnd",
+        "sounds/aru/pause_count_12.vsnd",
+        "sounds/aru/pause_count_06.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd",
+        "sounds/aru/pause_count_08.vsnd"
+      ],
+      "vsnd_duration": 1.780522,
+      "pitch": 1.0,
+      "volume": 8.0,
+      "track_1.vsnd_selection_type": "forward"
+    }
+  },
+  {
+    "file": "ui.vsndevts",
+    "event": "Aru.Pause.Countdown.Tick",
+    "folder": "contador",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/pause_count_06.vsnd",
+        "sounds/aru/pause_count_11.vsnd",
+        "sounds/aru/pause_count_12.vsnd"
+      ],
+      "vsnd_duration": 1.655329,
+      "pitch": 1.0,
+      "volume": 8.0,
+      "track_1.vsnd_selection_type": "forward"
+    }
+  },
+  {
+    "file": "ui.vsndevts",
+    "event": "Gameplay.Pause.End",
+    "folder": "contador",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/pause_count_01.vsnd"
+      ],
+      "vsnd_duration": 2.129569,
+      "pitch": 1.0,
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "gameplay.vsndevts",
+    "event": "MidBoss.Arrive",
+    "folder": "Aparece midboss",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/midboss_spawn_01.vsnd"
+      ],
+      "vsnd_duration": 1.133152,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "gameplay.vsndevts",
+    "event": "MidBoss.LowHealth",
+    "folder": "midboss herido",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/midboss_hurt_01.vsnd"
+      ],
+      "vsnd_duration": 4.740544,
+      "pitch": 1.0,
+      "volume": 1.0
+    }
+  },
+  {
+    "file": "gameplay.vsndevts",
+    "event": "MidBoss.Death",
+    "folder": "muerte midboss",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/midboss_death_01.vsnd"
+      ],
+      "vsnd_duration": 0.990748,
+      "pitch": 1.0,
+      "volume": 9.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_in_street_01_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_in_street_02_alt_01_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_in_street_02_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_in_street_03_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_in_street_04_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_in_street_05_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_in_street_06_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_in_street_07_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_in_street_08_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_in_street_09_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_in_street_10_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_in_street_11_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_01_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_02_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_03_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_04_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_05_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_06_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_07_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_08_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_09_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_10_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_11_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_12_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_13_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_14_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_15_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_16_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_17_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_18_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_19_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_waiting_on_bridge_20_idol",
+    "folder": "voz urna cuando esta esperando que alguien tome la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_wait_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "patron_female_ally_urn_delivered_01_alt_01_announcer",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "patron_female_ally_urn_delivered_01_announcer",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "patron_female_enemy_urn_delivered_01_announcer",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "patron_female_enemy_urn_delivered_02_announcer",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "patron_female_urn_dropped_01_announcer",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "patron_male_ally_urn_delivered_01_announcer",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "patron_male_ally_urn_delivered_02_announcer",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "patron_male_enemy_urn_delivered_01_announcer",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "patron_male_enemy_urn_delivered_02_announcer",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "patron_male_urn_dropped_01_announcer",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_astro_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_astro_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_astro_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_astro_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_astro_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_atlas_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_atlas_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_atlas_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_atlas_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_atlas_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_bebop_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_bebop_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_bebop_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_bebop_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_bebop_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_bookworm_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_bookworm_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_bookworm_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_bookworm_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_bookworm_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_chrono_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_chrono_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_chrono_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_chrono_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_chrono_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_doorman_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_doorman_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_doorman_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_doorman_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_doorman_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_drifter_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_drifter_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_drifter_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_drifter_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_drifter_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_dynamo_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_dynamo_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_dynamo_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_dynamo_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_dynamo_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_familiar_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_familiar_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_familiar_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_familiar_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_familiar_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_fencer_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_fencer_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_fencer_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_fencer_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_fencer_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_forge_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_forge_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_forge_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_forge_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_forge_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_frank_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_frank_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_frank_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_frank_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_frank_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_ghost_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_ghost_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_ghost_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_ghost_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_ghost_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_gigawatt_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_gigawatt_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_gigawatt_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_gigawatt_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_gigawatt_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_haze_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_haze_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_haze_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_haze_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_haze_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_hornet_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_hornet_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_hornet_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_hornet_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_hornet_05_alt_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_hornet_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_inferno_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_inferno_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_inferno_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_inferno_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_inferno_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_kelvin_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_kelvin_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_kelvin_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_kelvin_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_kelvin_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_krill_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_krill_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_krill_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_krill_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_krill_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_lash_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_lash_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_lash_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_lash_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_lash_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_magician_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_magician_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_magician_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_magician_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_magician_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_mirage_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_mirage_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_mirage_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_mirage_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_mirage_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_nano_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_nano_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_nano_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_nano_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_nano_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_necro_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_necro_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_necro_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_necro_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_necro_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_orion_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_orion_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_orion_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_orion_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_orion_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_priest_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_priest_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_priest_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_priest_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_priest_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_punkgoat_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_punkgoat_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_punkgoat_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_punkgoat_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_punkgoat_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_shiv_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_shiv_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_shiv_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_shiv_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_shiv_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_synth_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_synth_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_synth_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_synth_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_synth_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_tengu_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_tengu_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_tengu_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_tengu_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_tengu_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_unicorn_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_unicorn_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_unicorn_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_unicorn_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_unicorn_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_vampirebat_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_vampirebat_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_vampirebat_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_vampirebat_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_vampirebat_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_viper_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_viper_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_viper_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_viper_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_viper_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_viscous_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_viscous_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_viscous_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_viscous_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_viscous_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_warden_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_warden_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_warden_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_warden_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_warden_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_werewolf_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_werewolf_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_werewolf_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_werewolf_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_werewolf_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_wraith_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_wraith_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_wraith_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_wraith_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_wraith_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_yamato_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_yamato_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_yamato_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_yamato_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_holder_stalls_yamato_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_delivered_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_delivered_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_delivered_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_delivered_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_delivered_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_delivered_06_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_delivered_07_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_delivered_08_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_delivered_09_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_delivered_10_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropped_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropped_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropped_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropped_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropped_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropped_06_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropped_07_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropped_08_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropped_09_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropped_10_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropping_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropping_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropping_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropping_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropping_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropping_06_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropping_07_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropping_08_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropping_09_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_dropping_10_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_gets_stunned_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_gets_stunned_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_gets_stunned_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_gets_stunned_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_gets_stunned_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_stalls_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_stalls_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_stalls_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_stalls_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_stalls_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_takes_big_damage_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_takes_big_damage_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_takes_big_damage_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_takes_big_damage_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_holder_takes_big_damage_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_bridge_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_bridge_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_bridge_03_alt_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_bridge_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_bridge_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_bridge_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_bridge_06_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_bridge_07_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_bridge_08_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_bridge_09_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_bridge_10_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_street_01_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_street_02_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_street_03_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_street_04_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_02.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_street_05_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_03.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_street_06_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_04.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_street_07_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_05.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_street_08_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_06.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_street_09_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_07.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "vo/generated_vo_misc.vsndevts",
+    "event": "spirit_jar_idol_picked_up_on_street_10_idol",
+    "folder": "voces aleatorias de la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_carry_vo_01.vsnd"
+      ],
+      "volume": 8.0
+    }
+  },
+  {
+    "file": "mods/tech.vsndevts",
+    "event": "Item.MagicCarpet.Lp",
+    "folder": "alfombraMagica",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/carpet_01.vsnd"
+      ],
+      "vsnd_duration": 14.315102,
+      "pitch": 1.0,
+      "volume": 4.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.Idol.Returned.Team",
+    "folder": "sonido cuando entregamos la urna",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/urn_delivered_01.vsnd"
+      ],
+      "vsnd_duration": 1.840408,
+      "pitch": 1.0,
+      "volume": 13.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.Koth.Win",
+    "folder": "sonido cuando el equipo aliado completo la carga de la grieta",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/rift_win_01.vsnd"
+      ],
+      "vsnd_duration": 1.840408,
+      "pitch": 1.0,
+      "volume": 11.0
+    }
+  },
+  {
+    "file": "music.vsndevts",
+    "event": "Stinger.Koth.Lose",
+    "folder": "sonido cuando la carga de la grieta la completo el enemigo",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/rift_lose_01.vsnd"
+      ],
+      "vsnd_duration": 2.051542,
+      "pitch": 1.0,
+      "volume": 11.0
+    }
+  },
+  {
+    "file": "mods/armor.vsndevts",
+    "event": "Mods.Armor.VeilWalker.Ambient",
+    "folder": "velo",
+    "random": false,
+    "fields": {
+      "vsnd_files": [
+        "sounds/aru/veil_01.vsnd"
+      ],
+      "vsnd_duration": 32.66,
+      "volume_fade_in": 0.2,
+      "volume_fade_out": 0.2,
+      "pitch": 1.0,
+      "volume": 6.0
+    }
+  },
+  {
+    "file": "scripts/misc.vdata",
+    "event": "info_neutral_trooper_camp",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "m_sIdleAmbient": "Music.Sinners.Nearby"
+    }
+  },
+  {
+    "file": "scripts/misc.vdata",
+    "event": "neutral_camp_vaults",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "m_sIdleAmbient": "Music.Sinners.Nearby"
+    }
+  },
+  {
+    "file": "scripts/misc.vdata",
+    "event": "neutral_camp_vaults_herotest",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "m_sIdleAmbient": "Music.Sinners.Nearby"
+    }
+  },
+  {
+    "file": "scripts/misc.vdata",
+    "event": "neutral_camp_weak",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "m_sIdleAmbient": "Music.Sinners.Nearby"
+    }
+  },
+  {
+    "file": "scripts/misc.vdata",
+    "event": "neutral_camp_weak_herotest",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "m_sIdleAmbient": "Music.Sinners.Nearby"
+    }
+  },
+  {
+    "file": "scripts/misc.vdata",
+    "event": "neutral_camp_medium",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "m_sIdleAmbient": "Music.Sinners.Nearby"
+    }
+  },
+  {
+    "file": "scripts/misc.vdata",
+    "event": "neutral_camp_medium_herotest",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "m_sIdleAmbient": "Music.Sinners.Nearby"
+    }
+  },
+  {
+    "file": "scripts/misc.vdata",
+    "event": "neutral_camp_strong",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "m_sIdleAmbient": "Music.Sinners.Nearby"
+    }
+  },
+  {
+    "file": "scripts/misc.vdata",
+    "event": "neutral_camp_strong_herotest",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "m_sIdleAmbient": "Music.Sinners.Nearby"
+    }
+  },
+  {
+    "file": "scripts/misc.vdata",
+    "event": "neutral_camp_midboss",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "m_sIdleAmbient": "Music.Sinners.Nearby"
+    }
+  },
+  {
+    "file": "scripts/misc.vdata",
+    "event": "neutral_camp_bug",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "m_sIdleAmbient": "Music.Sinners.Nearby"
+    }
+  },
+  {
+    "file": "scripts/misc.vdata",
+    "event": "neutral_camp_bug_herotest",
+    "folder": "musica del sinners",
+    "random": false,
+    "fields": {
+      "m_sIdleAmbient": "Music.Sinners.Nearby"
+    }
+  }
+]
