@@ -49,6 +49,14 @@ FOLDERS = {
     'muerte midboss':'midboss_death',
     'voz urna cuando esta esperando que alguien tome la urna':'urn_wait',
     'voces aleatorias de la urna':'urn_carry_vo',
+    'CADA VEZ QUE EL JUGADOR MATA A UN ENEMIGO':'kill_global',
+    'PárryRem':'parry_rem',
+    'golpe normal rem':'rem_melee',
+    'golpe cargado rem':'rem_melee_charged',
+    'dialogos rem':'rem_dialog',
+    'muerteRem':'rem_death',
+    'rem frase MVP':'rem_mvp',
+    'le hacen daño a rem':'rem_hurt',
 }
 LOOPS = {
     # The world shop, lobby, and objective/ambient tracks are persistent while
@@ -83,7 +91,7 @@ def inventory():
         assert files, f'No audio in {folder}'
         # These folders intentionally contain a randomized playlist. All
         # other targets are single replacement tracks.
-        assert key in {'search_mix','pause','pause_count','urn_carry_vo'} or len(files)==1, f'Ambiguous folder {folder}'
+        assert key in {'search_mix','pause','pause_count','urn_carry_vo','rem_melee','rem_melee_charged','rem_dialog','rem_hurt'} or len(files)==1, f'Ambiguous folder {folder}'
         for i,p in enumerate(files,1):
             if p.suffix.lower()=='.wav':
                 with wave.open(str(p),'rb') as w:
@@ -336,8 +344,7 @@ def prepare_events(rows):
         +[count_rows['ten'],count_rows['nine'],count_rows['eight'],
           count_rows['seven'],count_rows['six'],count_rows['five'],
           count_rows['four'],count_rows['tree'],count_rows['two'],
-          count_rows['one']] \
-        +[count_rows['silence']]*4
+          count_rows['one']]
     pause_rows=[count_rows['one'],count_rows['tree'],count_rows['two']]
     def add_countdown(name,rows):
         fields={'vsnd_files':[x['resource'] for x in rows],
@@ -377,6 +384,83 @@ def prepare_events(rows):
             res=carry_files[i % len(carry_files)]
             texts['vo/generated_vo_misc.vsndevts']=patch_event(texts['vo/generated_vo_misc.vsndevts'],ev,{'vsnd_files':[res],'vsnd_duration':carry_dur,'volume':8.0})
             mapping.append(dict(file='vo/generated_vo_misc.vsndevts',event=ev,folder='voces aleatorias de la urna',random=False,fields={'vsnd_files':[res],'volume':8.0}))
+    # Rem melee — per-hero for familiar (Rem vessel)
+    if 'rem_melee' in groups and groups['rem_melee']:
+        for p in ['hero/familiar.vsndevts','vo/generated_vo_hero_familiar.vsndevts']:
+            if p not in texts:
+                texts[p]=(AUDIT/'soundevents'/p).read_text(encoding='utf-8') if (AUDIT/'soundevents'/p).exists() else Path(f'C:/Modding/all_soundevents_20260914/soundevents/{p}').read_text(encoding='utf-8')
+        change_rows('hero/familiar.vsndevts','Familiar.Melee.Swing',groups['rem_melee'],{'volume':8.0},boost=LOUD_EVENT_BOOST_DB)
+    if 'rem_melee_charged' in groups and groups['rem_melee_charged']:
+        for p in ['hero/familiar.vsndevts']:
+            if p not in texts:
+                texts[p]=(AUDIT/'soundevents'/p).read_text(encoding='utf-8') if (AUDIT/'soundevents'/p).exists() else Path(f'C:/Modding/all_soundevents_20260914/soundevents/{p}').read_text(encoding='utf-8')
+        change_rows('hero/familiar.vsndevts','Familiar.Melee.Swing.Charged',groups['rem_melee_charged'],{'volume':8.0},boost=LOUD_EVENT_BOOST_DB)
+    # Rem dialogos — 19 files replace all non-ability, non-weapon VO for familiar (excluding kill/death)
+    if 'rem_dialog' in groups and groups['rem_dialog']:
+        fam_vo='vo/generated_vo_hero_familiar.vsndevts'
+        if fam_vo not in texts:
+            texts[fam_vo]=Path('C:/Modding/all_soundevents_20260914/soundevents/vo/generated_vo_hero_familiar.vsndevts').read_text(encoding='utf-8')
+        d_files=[x['resource'] for x in groups['rem_dialog']]
+        d_dur=round(max(x['duration'] for x in groups['rem_dialog']),6)
+        for i,ev in enumerate([e for e in sorted(event_spans(texts[fam_vo]).keys()) if not any(k in e for k in ['ability','Ability','upgrade','Upgrade','Wpn','wpn','weapon','Weapon','desperation','Desperation','pain_death','pain_big','pain_small','effort_melee','effort_dash','effort_general','kill_anyhero','kill_'])]):
+            res=d_files[i % len(d_files)]
+            texts[fam_vo]=patch_event(texts[fam_vo],ev,{'vsnd_files':[res],'vsnd_duration':d_dur,'volume':8.0})
+            mapping.append(dict(file=fam_vo,event=ev,folder='dialogos rem',random=False,fields={'vsnd_files':[res],'volume':8.0}))
+    # Rem hurt — 6 random files replace pain_small + pain_big for familiar only (death stays separate)
+    if 'rem_hurt' in groups and groups['rem_hurt']:
+        fam_hurt_vo='vo/generated_vo_hero_familiar.vsndevts'
+        if fam_hurt_vo not in texts:
+            texts[fam_hurt_vo]=Path('C:/Modding/all_soundevents_20260914/soundevents/vo/generated_vo_hero_familiar.vsndevts').read_text(encoding='utf-8')
+        hurt_files=[x['resource'] for x in groups['rem_hurt']]
+        hurt_dur=round(max(x['duration'] for x in groups['rem_hurt']),6)
+        for i,ev in enumerate(sorted([e for e in event_spans(texts[fam_hurt_vo]).keys() if 'pain_small' in e or 'pain_big' in e])):
+            res=hurt_files[i % len(hurt_files)]
+            texts[fam_hurt_vo]=patch_event(texts[fam_hurt_vo],ev,{'vsnd_files':[res],'vsnd_duration':hurt_dur,'volume':8.0})
+            mapping.append(dict(file=fam_hurt_vo,event=ev,folder='le hacen daño a rem',random=False,fields={'vsnd_files':[res],'volume':8.0}))
+    # Rem death — single file replaces Generated.Familiar.Hero.Death.VO (only this event)
+    if 'rem_death' in groups and groups['rem_death']:
+        death_res=groups['rem_death'][0]['resource']
+        death_dur=round(groups['rem_death'][0]['duration'],6)
+        death_file='generated_vo_hero_death_vo.vsndevts'
+        if death_file not in texts:
+            texts[death_file]=Path('C:/Modding/all_soundevents_20260914/soundevents/generated_vo_hero_death_vo.vsndevts').read_text(encoding='utf-8')
+        for ev in [e for e in event_spans(texts[death_file]).keys() if 'Familiar' in ev and 'Death' in ev]:
+            texts[death_file]=patch_event(texts[death_file],ev,{'vsnd_files':[death_res],'vsnd_duration':death_dur,'volume':8.0})
+            mapping.append(dict(file=death_file,event=ev,folder='muerteRem',random=False,fields={'vsnd_files':[death_res],'volume':8.0}))
+    # Rem MVP — single file replaces win VO
+    if 'rem_mvp' in groups and groups['rem_mvp']:
+        mvp_res=groups['rem_mvp'][0]['resource']
+        mvp_dur=round(groups['rem_mvp'][0]['duration'],6)
+        for p in ['hero/familiar.vsndevts']:
+            if p not in texts:
+                texts[p]=Path(f'C:/Modding/all_soundevents_20260914/soundevents/{p}').read_text(encoding='utf-8')
+        texts['hero/familiar.vsndevts']=patch_event(texts['hero/familiar.vsndevts'],'Familiar.Progession.Page.Win.VO',{'vsnd_files':[mvp_res],'vsnd_duration':mvp_dur,'volume':8.0})
+        mapping.append(dict(file='hero/familiar.vsndevts',event='Familiar.Progession.Page.Win.VO',folder='rem frase MVP',random=False,fields={'vsnd_files':[mvp_res],'volume':8.0}))
+    # Rem — global kill for all heroes (must be after rem_dialog so kill_anyhero is not overwritten)
+    if 'kill_global' in groups and groups['kill_global']:
+        kill_res=groups['kill_global'][0]['resource']
+        kill_dur=round(groups['kill_global'][0]['duration'],6)
+        for vo_file in Path('C:/Modding/all_soundevents_20260914/soundevents/vo').glob('generated_vo_hero_*.vsndevts'):
+            rel=f'vo/{vo_file.name}'
+            if rel not in texts:
+                texts[rel]=vo_file.read_text(encoding='utf-8')
+            for ev in list(event_spans(texts[rel]).keys()):
+                if any(k in ev for k in ['kill_anyhero','kill_anyhereo','killstreak']) or 'melee_kill' in ev or 'revenge_kill' in ev or ('_kill_' in ev and 'ally_' not in ev and 'killed_in_lane' not in ev):
+                    texts[rel]=patch_event(texts[rel],ev,{'vsnd_files':[kill_res],'vsnd_duration':kill_dur,'volume':8.0})
+                    mapping.append(dict(file=rel,event=ev,folder='CADA VEZ QUE EL JUGADOR MATA A UN ENEMIGO',random=False,fields={'vsnd_files':[kill_res],'volume':8.0}))
+    # Parry — global (no per-hero parry exists)
+    if 'parry_rem' in groups and groups['parry_rem']:
+        if 'player.vsndevts' not in texts:
+            ppath=AUDIT/'soundevents/player.vsndevts'
+            if not ppath.exists():
+                ppath=Path('C:/Modding/all_soundevents_20260914/soundevents/player.vsndevts')
+            texts['player.vsndevts']=ppath.read_text(encoding='utf-8')
+        parry_res=groups['parry_rem'][0]['resource']
+        parry_dur=round(groups['parry_rem'][0]['duration'],6)
+        for ev in ['Player.Melee.Parry.Shared','Player.Melee.Parry.Success.Shared','Player.Melee.Parry.Trooper.Success']:
+            if ev in event_spans(texts['player.vsndevts']):
+                texts['player.vsndevts']=patch_event(texts['player.vsndevts'],ev,{'vsnd_files':[parry_res],'vsnd_duration':parry_dur,'volume':8.0})
+                mapping.append(dict(file='player.vsndevts',event=ev,folder='PárryRem',random=False,fields={'vsnd_files':[parry_res],'volume':8.0}))
     change('mods/tech.vsndevts','Item.MagicCarpet.Lp','carpet')
 
     # One-shot objective result cues.  These are deliberately not added to
@@ -400,8 +484,10 @@ def prepare_events(rows):
             source_path=VAULT_AUDIT
         elif p=='vo/generated_vo_misc.vsndevts':
             source_path=VO_AUDIT
-        else:
+        elif (AUDIT/'soundevents'/p).exists():
             source_path=AUDIT/'soundevents'/p
+        else:
+            source_path=Path(f'C:/Modding/all_soundevents_20260914/soundevents/{p}')
         original_count=len(event_spans(source_path.read_text(encoding='utf-8')))
         added={'music.vsndevts':1,'mods/armor.vsndevts':1,'ui.vsndevts':2}
         expected_count=original_count + added.get(p,0)
@@ -483,7 +569,7 @@ def compile_all():
             for old in generated_root.rglob('*_c'):
                 if old.is_file():
                     old.unlink()
-    for pattern in ['sounds/aru/*.wav','soundevents/*.vsndevts','soundevents/vo/*.vsndevts','soundevents/mods/*.vsndevts','soundevents/npc/*.vsndevts','scripts/abilities.vdata','scripts/misc.vdata','panorama/styles/popups/citadel_popup_roster_select.vcss','panorama/styles/citadel_hud_pregame_countdown.vcss','panorama/styles/hud_paused.vcss']:
+    for pattern in ['sounds/aru/*.wav','soundevents/*.vsndevts','soundevents/vo/*.vsndevts','soundevents/hero/*.vsndevts','soundevents/mods/*.vsndevts','soundevents/npc/*.vsndevts','scripts/abilities.vdata','scripts/misc.vdata','panorama/styles/popups/citadel_popup_roster_select.vcss','panorama/styles/citadel_hud_pregame_countdown.vcss','panorama/styles/hud_paused.vcss','soundevents/generated_vo_hero_death_vo.vsndevts']:
         text=run([RC,'-i',CONTENT/pattern,'-game',SDK/'game/citadel','-addon','aru_audio_pack','-nop4'], 'compile_'+pattern.replace('/','_').replace('*','all')+'.log')
         print(text[-2200:],flush=True)
         if re.search(r'(?im)^.*(?:COMPILE FAILED|Error compiling|Failed to compile).*$',text): raise RuntimeError('Compilation failure')

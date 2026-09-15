@@ -1,6 +1,6 @@
 {
   "status": "static_checks_passed_runtime_pending",
-  "resources": 72,
+  "resources": 180,
   "audio": [
     {
       "name": "intro_01",
@@ -361,10 +361,328 @@
       "samples": 93976,
       "loop_start": -1,
       "loop_end": 0
+    },
+    {
+      "name": "kill_global_01",
+      "samples": 70327,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "parry_rem_01",
+      "samples": 76593,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_01",
+      "samples": 22556,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_02",
+      "samples": 21389,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_03",
+      "samples": 23072,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_04",
+      "samples": 23724,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_05",
+      "samples": 26815,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_06",
+      "samples": 26937,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_07",
+      "samples": 25032,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_08",
+      "samples": 25482,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_09",
+      "samples": 24012,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_10",
+      "samples": 27318,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_11",
+      "samples": 36353,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_12",
+      "samples": 39731,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_13",
+      "samples": 28390,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_14",
+      "samples": 33976,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_15",
+      "samples": 23750,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_16",
+      "samples": 28666,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_17",
+      "samples": 42508,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_18",
+      "samples": 52945,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_charged_01",
+      "samples": 32631,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_charged_02",
+      "samples": 52834,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_charged_03",
+      "samples": 45817,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_charged_04",
+      "samples": 56900,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_charged_05",
+      "samples": 63700,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_melee_charged_06",
+      "samples": 56038,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_01",
+      "samples": 120305,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_02",
+      "samples": 95697,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_03",
+      "samples": 140577,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_04",
+      "samples": 245454,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_05",
+      "samples": 121951,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_06",
+      "samples": 113032,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_07",
+      "samples": 201891,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_08",
+      "samples": 99435,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_09",
+      "samples": 68353,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_10",
+      "samples": 80032,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_11",
+      "samples": 56038,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_12",
+      "samples": 61955,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_13",
+      "samples": 25377,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_14",
+      "samples": 36502,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_15",
+      "samples": 39473,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_16",
+      "samples": 62714,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_17",
+      "samples": 31597,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_18",
+      "samples": 83762,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_dialog_19",
+      "samples": 73199,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_death_01",
+      "samples": 68658,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_mvp_01",
+      "samples": 72671,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_hurt_01",
+      "samples": 36198,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_hurt_02",
+      "samples": 25921,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_hurt_03",
+      "samples": 22612,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_hurt_04",
+      "samples": 32333,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_hurt_05",
+      "samples": 29599,
+      "loop_start": -1,
+      "loop_end": 0
+    },
+    {
+      "name": "rem_hurt_06",
+      "samples": 37301,
+      "loop_start": -1,
+      "loop_end": 0
     }
   ],
-  "changed_events": 352,
-  "vpk_sha256": "b55fc05108c315d2625a6b9df99f907f7574df72c219dbabbe50a75ea95e16df",
+  "changed_events": 9482,
+  "vpk_sha256": "f8248a23c1c2cc94379bec4b49c710c8118833927cb82eba8b0b8c425999c170",
   "runtime_verified": false,
   "random_tests": {
     "Music.Idol.Pickup.Lp": {
